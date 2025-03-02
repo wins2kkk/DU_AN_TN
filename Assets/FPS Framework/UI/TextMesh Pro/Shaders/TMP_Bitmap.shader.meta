@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0109e2d6ade4fe543b5c2631e33d89b3
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217379
+  packageName: FPS Framework
+  packageVersion: 1.92
+  assetPath: Assets/FPS Framework/UI/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  uploadId: 695196

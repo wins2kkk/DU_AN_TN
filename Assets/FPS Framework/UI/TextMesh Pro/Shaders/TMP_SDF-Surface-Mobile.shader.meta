@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d039d75580981745a6bfdbde1f7e55f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217379
+  packageName: FPS Framework
+  packageVersion: 1.92
+  assetPath: Assets/FPS Framework/UI/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  uploadId: 695196

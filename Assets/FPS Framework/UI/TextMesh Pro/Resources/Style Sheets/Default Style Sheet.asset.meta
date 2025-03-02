@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 40faa7a049ee3c2458b60e44215b8607
+timeCreated: 1432805430
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217379
+  packageName: FPS Framework
+  packageVersion: 1.92
+  assetPath: Assets/FPS Framework/UI/TextMesh Pro/Resources/Style Sheets/Default
+    Style Sheet.asset
+  uploadId: 695196

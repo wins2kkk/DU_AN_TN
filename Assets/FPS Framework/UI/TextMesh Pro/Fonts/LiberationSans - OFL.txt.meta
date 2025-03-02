@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ecea57b283dcc794f95f0e6f025ca1e7
+timeCreated: 1484171296
+licenseType: Pro
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217379
+  packageName: FPS Framework
+  packageVersion: 1.92
+  assetPath: Assets/FPS Framework/UI/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  uploadId: 695196

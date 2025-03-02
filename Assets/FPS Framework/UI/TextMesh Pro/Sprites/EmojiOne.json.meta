@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f80dc0a4db3173b4a8670b2695804306
+timeCreated: 1480316860
+licenseType: Pro
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217379
+  packageName: FPS Framework
+  packageVersion: 1.92
+  assetPath: Assets/FPS Framework/UI/TextMesh Pro/Sprites/EmojiOne.json
+  uploadId: 695196

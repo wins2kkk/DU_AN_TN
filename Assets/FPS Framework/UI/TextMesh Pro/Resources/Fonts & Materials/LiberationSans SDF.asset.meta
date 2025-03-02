@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 53b757bc4e4264d45ad02f8f0d68a9e2
+timeCreated: 1484171803
+licenseType: Pro
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217379
+  packageName: FPS Framework
+  packageVersion: 1.92
+  assetPath: Assets/FPS Framework/UI/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+    SDF.asset
+  uploadId: 695196
