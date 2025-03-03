@@ -42,10 +42,12 @@ namespace Akila.FPSFramework
         public int spawnCount = 3;           // Số lượng enemy mới cần sinh ra
         public float spawnRadius = 2f;       // Bán kính sinh enemy quanh vị trí hiện tại
         public float spawnDelay = 3f;        // Thời gian trì hoãn trước khi sinh enemy
-
+        private Gameboss gameboss;
 
         private void Start()
         {
+            gameboss = FindObjectOfType<Gameboss>();
+
             Actor = GetComponent<Actor>();
             ragdoll = GetComponent<Ragdoll>();
             animator = GetComponent<Animator>();
@@ -120,6 +122,17 @@ namespace Akila.FPSFramework
 
         private void Die()
         {
+            if (gameboss != null)
+            {
+                Debug.Log(gameObject.name + " đã bị tiêu diệt.");
+                gameboss.EnemyKilled(gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("EnemyManager chưa được tìm thấy!");
+            }
+
+
             if (HasParameter(animator, "die"))
             {
                 animator.SetTrigger("die");

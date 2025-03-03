@@ -286,6 +286,8 @@ namespace Akila.FPSFramework
         private void Die()
         {
             StartCoroutine(DieSequence());
+            
+
         }
 
 

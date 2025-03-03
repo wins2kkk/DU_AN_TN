@@ -273,7 +273,12 @@ namespace Akila.FPSFramework
         {
             if (gameboss != null)
             {
+                Debug.Log(gameObject.name + " đã bị tiêu diệt.");
                 gameboss.EnemyKilled(gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("EnemyManager chưa được tìm thấy!");
             }
             // Dừng âm thanh nền khi chết
             if (ambientSoundCoroutine != null)

@@ -58,8 +58,12 @@ namespace Akila.FPSFramework
         //trong public class  [Header("Drop KinhNghiem")]
         public GameObject kinhNghiem; // 
 
+        private Gameboss gameboss;
         private void Start()
         {
+
+            gameboss = FindObjectOfType<Gameboss>();
+
             // Khởi tạo audio sources normal
             InitializeAudio();
             InitializeAmbientSound();
@@ -250,6 +254,17 @@ namespace Akila.FPSFramework
 
         private void Die()
         {
+            if (gameboss != null)
+            {
+                Debug.Log(gameObject.name + " đã bị tiêu diệt.");
+                gameboss.EnemyKilled(gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("EnemyManager chưa được tìm thấy!");
+            }
+
+
             //void Die  // KINH NGHIEM (nếu đã gán trong Inspector)
             if (kinhNghiem != null)
             {

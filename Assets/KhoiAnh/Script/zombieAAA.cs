@@ -67,8 +67,13 @@ namespace Akila.FPSFramework
         public bool deadConfirmed { get; set; }
         private Animator animator;
 
+        private Gameboss gameboss;
+
         private void Start()
         {
+            gameboss = FindObjectOfType<Gameboss>();
+
+
             // Khởi tạo audio sources normal
             InitializeAudio();
             InitializeAmbientSound();
@@ -281,6 +286,16 @@ namespace Akila.FPSFramework
 
         private void Die()
         {
+
+            if (gameboss != null)
+            {
+                Debug.Log(gameObject.name + " đã bị tiêu diệt.");
+                gameboss.EnemyKilled(gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("EnemyManager chưa được tìm thấy!");
+            }
             // Dừng âm thanh nền khi chết
             if (ambientSoundCoroutine != null)
             {

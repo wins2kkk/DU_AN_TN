@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/hoan_thien/LV1.unity
     guid: 2e8e922e88f99b74eaf86b24e3e7b410
+  - enabled: 1
+    path: Assets/hoan_thien/LoseGame2.unity
+    guid: 298fd727091edb145a3e3c298688818e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

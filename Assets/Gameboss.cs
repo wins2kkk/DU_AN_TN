@@ -20,6 +20,7 @@ public class Gameboss : MonoBehaviour
         {
             bossPanel.SetActive(false); // Ẩn panel thông báo boss
         }
+
     }
 
     public void EnemyKilled(GameObject enemy)
@@ -37,13 +38,20 @@ public class Gameboss : MonoBehaviour
 
     private IEnumerator SpawnBossCoroutine()
     {
+        Debug.Log("Hiển thị panel boss...");
         bossPanel.SetActive(true);
-        yield return new WaitForSeconds(2f); // Hiển thị thông báo 2 giây
+        yield return new WaitForSeconds(2f);
         bossPanel.SetActive(false);
 
         if (boss != null)
         {
-            boss.SetActive(true); // Hiện boss lên
+            Debug.Log("Kích hoạt Boss!");
+            boss.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("Boss chưa được gán trong Inspector!");
         }
     }
+
 }
