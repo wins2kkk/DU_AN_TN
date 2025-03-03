@@ -10,7 +10,9 @@ namespace Akila.FPSFramework
 {
     [AddComponentMenu("Akila/FPS Framework/Health System/Health System")]
     public class HealthSystemThuan : MonoBehaviour, IDamageable
-    {
+    {//trong public class  [Header("Drop KinhNghiem")]
+        public GameObject kinhNghiem; // Prefab sẽ được sinh ra khi zombie chết
+
         public HealthType type = HealthType.Other;
         public float health = 100;
         public float destroyDelay;
@@ -129,7 +131,15 @@ namespace Akila.FPSFramework
             }
 
 
-
+            if (kinhNghiem != null)
+            {
+                // Sinh ra prefab tại vị trí và hướng của zombie hiện tại
+                Instantiate(kinhNghiem, transform.position, transform.rotation);
+            }
+            else
+            {
+                Debug.LogWarning("Chưa gán replacementPrefab trong Inspector!");
+            }
             if (type == HealthType.Humanoid)
             {
                 if (Actor.actorManager && Actor.actorManager.respawnable) Actor.ConfirmDeath();
