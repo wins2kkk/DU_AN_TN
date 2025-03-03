@@ -524,7 +524,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  kinhNghiem: {fileID: 365927477630813411, guid: b2ff39f2185a7304a9f71d7f10000c2e,
+  kinhNghiem: {fileID: 3505241753462847513, guid: 51a8bf0baa35cc3499ba30b6a684e984,
     type: 3}
 --- !u!1 &1025266579905717846
 GameObject:
