@@ -30,8 +30,7 @@ namespace Akila.FPSFramework
         // Thêm mục Audio Settings Damage
         [Header("Audio Settings")]
         [SerializeField] private AudioClip damageSound; // Âm thanh khi nhận damage
-        [SerializeField] private float soundVolume = 1f;
-        [SerializeField] private string sfxGroup = "SFX";// Độ lớn âm thanh
+        [SerializeField] private float soundVolume = 1f; // Độ lớn âm thanh
         private AudioSource audioSource;
 
         //khai bao Slider 
@@ -225,10 +224,9 @@ namespace Akila.FPSFramework
 
         private void DoDamage(float damage, Actor killer)
         {
-            Debug.Break();
             health -= damage;
             this.killer = killer;
-           // Debug.Log($"Current Health: {health}"); // ✅ Kiểm tra giá trị
+            // Debug.Log($"Current Health: {health}"); // ✅ Kiểm tra giá trị
             // Reset thời gian không nhận damage
             timeWithoutDamage = 0f;
 
@@ -242,29 +240,14 @@ namespace Akila.FPSFramework
             StartCoroutine(DamageCooldownRoutine());
 
             // Phát âm thanh khi nhận damage
-            //if (damageSound != null && audioSource != null)
-            //{
-            //    audioSource.PlayOneShot(damageSound, soundVolume);
-            //}
-            //else
-            //{
-            //    Debug.LogWarning("Missing damage sound or AudioSource component");
-            //}
-            Debug.Log($"🛑 Gọi PlaySound với Volume: {soundVolume}");
-            if (damageSound != null)
+            if (damageSound != null && audioSource != null)
             {
-                QAudioManager.Instance.PlaySound(damageSound, soundVolume, sfxGroup);
+                audioSource.PlayOneShot(damageSound, soundVolume);
             }
-
-            if (ambientSoundCoroutine != null)
+            else
             {
-                StopCoroutine(ambientSoundCoroutine);
-                ambientSoundCoroutine = null;
+                Debug.LogWarning("Missing damage sound or AudioSource component");
             }
-
-            StartCoroutine(DamageCooldownRoutine());
-
-            if (health <= 0) OnDeath?.Invoke();
 
 
             // Animation handling

@@ -1534,7 +1534,7 @@ namespace Akila.FPSFramework
 
         ~@Controls()
         {
-          //  UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, Controls.Player.Disable() has not been called.");
+            UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, Controls.Player.Disable() has not been called.");
             UnityEngine.Debug.Assert(!m_Firearm.enabled, "This will cause a leak and performance issues, Controls.Firearm.Disable() has not been called.");
             UnityEngine.Debug.Assert(!m_Throwable.enabled, "This will cause a leak and performance issues, Controls.Throwable.Disable() has not been called.");
             UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, Controls.UI.Disable() has not been called.");

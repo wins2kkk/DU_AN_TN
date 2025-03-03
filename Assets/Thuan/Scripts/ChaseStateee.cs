@@ -3,56 +3,42 @@ using UnityEngine.AI;
 
 public class ChaseStatete : StateMachineBehaviour
 {
-    private NavMeshAgent agent;
-    private Transform player;
-
-    private float chaseSpeed = 4.5f;
-    private float stopChaseDistance = 15f; // Mất dấu nếu Player cách xa hơn 15m
-    private float attackRange = 2f; // Bắt đầu tấn công khi gần Player
-
+    NavMeshAgent agent;
+    Transform player;
+    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent = animator.GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
-
-        if (agent != null && agent.enabled)
-        {
-            agent.speed = chaseSpeed;   
-            agent.isStopped = false;
-        }
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        agent.speed = 4f;
     }
 
+    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (player == null || agent == null || !agent.enabled) return;
-
+        agent.SetDestination(player.position);
         float distance = Vector3.Distance(player.position, animator.transform.position);
-
-        if (distance > stopChaseDistance)
-        {
-            // Nếu mất dấu, quay về tuần tra
-           // animator.SetTrigger("isGu");
-            return;
-        }
-
-        if (distance < attackRange)
-        {
-            // Khi đến gần Player, chuyển sang tấn công
+        if (distance > 15)
+            animator.SetBool("isChasing", false);
+        if (distance < 1.25f)
             animator.SetBool("isAttacking", true);
-        }
-        else
-        {
-            // Nếu chưa tới gần, tiếp tục đuổi theo
-            agent.SetDestination(player.position);
-            animator.SetBool("isAttacking", false);
-        }
     }
 
+    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (agent != null && agent.enabled)
-        {
-            agent.SetDestination(animator.transform.position);
-        }
+        agent.SetDestination(animator.transform.position);
     }
+
+    // OnStateMove is called right after Animator.OnAnimatorMove()
+    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    // Implement code that processes and affects root motion
+    //}
+
+    // OnStateIK is called right after Animator.OnAnimatorIK()
+    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    // Implement code that sets up animation IK (inverse kinematics)
+    //}
 }

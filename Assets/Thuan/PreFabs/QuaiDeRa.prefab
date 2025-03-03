@@ -185,7 +185,7 @@ PrefabInstance:
     - target: {fileID: 1308332727351978552, guid: 1e25d59e6c1066f4e9a700bfdc5e34d4,
         type: 3}
       propertyPath: m_Name
-      value: TVT+UI
+      value: QuaiDeRa
       objectReference: {fileID: 0}
     - target: {fileID: 4868983410242110131, guid: 1e25d59e6c1066f4e9a700bfdc5e34d4,
         type: 3}
@@ -202,7 +202,7 @@ PrefabInstance:
         type: 3}
       propertyPath: enemyPrefab
       value: 
-      objectReference: {fileID: 1308332727351978552, guid: 1e25d59e6c1066f4e9a700bfdc5e34d4,
+      objectReference: {fileID: 3505241753462847513, guid: 51a8bf0baa35cc3499ba30b6a684e984,
         type: 3}
     - target: {fileID: 7693986581834454001, guid: 1e25d59e6c1066f4e9a700bfdc5e34d4,
         type: 3}
