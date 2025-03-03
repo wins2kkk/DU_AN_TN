@@ -195,6 +195,12 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3356728706724598640, guid: c1fc68b3b0350b8469c417f3450c4dab,
         type: 3}
+      propertyPath: kinhNghiem
+      value: 
+      objectReference: {fileID: 3505241753462847513, guid: 51a8bf0baa35cc3499ba30b6a684e984,
+        type: 3}
+    - target: {fileID: 3356728706724598640, guid: c1fc68b3b0350b8469c417f3450c4dab,
+        type: 3}
       propertyPath: enemyPrefab
       value: 
       objectReference: {fileID: 0}

@@ -3625,10 +3625,10 @@ RectTransform:
   - {fileID: 1936360365}
   m_Father: {fileID: 1402172471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -815}
-  m_SizeDelta: {x: 450, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &522231709
 MonoBehaviour:
@@ -5244,7 +5244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: KhoHang
+  m_text: Kho Hang
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5581,7 +5581,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kho H\xE0ng "
+  m_text: Kho kho vu khi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6815,10 +6815,10 @@ RectTransform:
   - {fileID: 1772251327}
   m_Father: {fileID: 1402172471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 410, y: -1365}
-  m_SizeDelta: {x: 450, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1065593499
 GameObject:
@@ -8228,10 +8228,10 @@ RectTransform:
   - {fileID: 2055576658}
   m_Father: {fileID: 1402172471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1510, y: -815}
-  m_SizeDelta: {x: 450, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336302524
 MonoBehaviour:
@@ -8537,7 +8537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "C\xF4ng tr\u01B0\u1EDDng"
+  m_text: Kho kho vu khi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9062,7 +9062,7 @@ GameObject:
   - component: {fileID: 1539897579}
   - component: {fileID: 1539897578}
   m_Layer: 5
-  m_Name: "C\xF4ng tr\u01B0\u1EDDng"
+  m_Name: Kho kho vu khi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9085,10 +9085,10 @@ RectTransform:
   - {fileID: 970619142}
   m_Father: {fileID: 1402172471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1510, y: -265}
-  m_SizeDelta: {x: 450, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539897578
 MonoBehaviour:
@@ -9202,7 +9202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d9cc5b4dfaca34f4799b650f1e547d8b, type: 3}
+  m_Texture: {fileID: 2800000, guid: cb9694c80161357418c1b456a319541c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -9267,10 +9267,10 @@ RectTransform:
   - {fileID: 513760364}
   m_Father: {fileID: 1402172471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 410, y: -815}
-  m_SizeDelta: {x: 450, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1569384171
 MonoBehaviour:
@@ -10058,7 +10058,7 @@ RectTransform:
   m_GameObject: {fileID: 1772251326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.57576, y: 0.57576, z: 0.57576}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2101574044}
@@ -10066,7 +10066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1651, y: 1046}
+  m_AnchoredPosition: {x: 1664, y: 1077}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1772251328
@@ -10138,7 +10138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4490565, g: 0.4024563, b: 0.4024563, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10521,7 +10521,7 @@ PrefabInstance:
     - target: {fileID: 1450101083950323321, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1450101083950323324, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
@@ -10616,12 +10616,12 @@ PrefabInstance:
     - target: {fileID: 2938448626371174998, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 450
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2938448626371174998, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 450
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2938448626371174998, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
@@ -10636,12 +10636,12 @@ PrefabInstance:
     - target: {fileID: 2938448626371174998, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 410
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2938448626371174998, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -265
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2938448626371174999, guid: e7832cc3ea9c6a34eaf66f40642bb7b2,
         type: 3}
@@ -11602,7 +11602,7 @@ GameObject:
   - component: {fileID: 1782909173}
   - component: {fileID: 1782909172}
   m_Layer: 5
-  m_Name: KhoHang
+  m_Name: Kho Hang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11625,10 +11625,10 @@ RectTransform:
   - {fileID: 1185096612}
   m_Father: {fileID: 1402172471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -265}
-  m_SizeDelta: {x: 450, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1782909172
 MonoBehaviour:
@@ -11719,7 +11719,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Game
+          m_StringArgument: LV1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1782909175
@@ -11742,7 +11742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 3eac4b90ac60dc94ca0e88d1af17eadd, type: 3}
+  m_Texture: {fileID: 2800000, guid: 353fcd8a54335d84a8b7470776140e84, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -13054,7 +13054,7 @@ GameObject:
   - component: {fileID: 2050947977}
   - component: {fileID: 2050947976}
   m_Layer: 5
-  m_Name: "Kho H\xE0ng "
+  m_Name: Kho kho vu khi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

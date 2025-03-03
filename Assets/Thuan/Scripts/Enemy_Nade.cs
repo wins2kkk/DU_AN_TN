@@ -12,6 +12,8 @@ namespace Akila.FPSFramework
     {
         [Header("Drop Ammo")]
         public GameObject ammoPrefab;
+        //trong public class  [Header("Drop KinhNghiem")]
+        public GameObject kinhNghiem; // Prefab sẽ được sinh ra khi zombie chết
 
 
         public HealthType type = HealthType.Other;
@@ -151,7 +153,15 @@ namespace Akila.FPSFramework
             {
                 //Debug.LogWarning("Chưa gán replacementPrefab trong Inspector!");
             }
-
+            if (kinhNghiem != null)
+            {
+                // Sinh ra prefab tại vị trí và hướng của zombie hiện tại
+                Instantiate(kinhNghiem, transform.position, transform.rotation);
+            }
+            else
+            {
+                Debug.LogWarning("Chưa gán replacementPrefab trong Inspector!");
+            }
 
             if (type == HealthType.Humanoid)
             {

@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/hoan_thien/Level2.unity
     guid: 908fa522105e38846a6081331e52b973
+  - enabled: 1
+    path: Assets/hoan_thien/LV1.unity
+    guid: 2e8e922e88f99b74eaf86b24e3e7b410
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

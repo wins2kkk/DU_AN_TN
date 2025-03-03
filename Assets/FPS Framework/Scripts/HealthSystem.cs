@@ -67,7 +67,7 @@ namespace Akila.FPSFramework
         public GameObject deathPanel; // Panel thông báo chết, kéo từ Inspector
         private CanvasGroup canvasGroup;
 
-        public string gameOverScene = "LosseGame"; // Scene sẽ chuyển đến sau khi chết
+        public string gameOverScene = "LoseGame"; // Scene sẽ chuyển đến sau khi chết
 
         private void Start()
         {
