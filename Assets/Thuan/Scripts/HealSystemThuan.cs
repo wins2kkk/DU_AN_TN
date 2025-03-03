@@ -174,6 +174,16 @@ namespace Akila.FPSFramework
                 GameObject effect = Instantiate(deathEffect, transform.position, transform.rotation);
                 effect.SetActive(true);
             }
+            WaveSpawner spawner = FindObjectOfType<WaveSpawner>();
+            if (spawner != null)
+            {
+                spawner.EnemyDefeated();
+            }
+            else
+            {
+                Debug.LogError("Không tìm thấy WaveSpawner trong scene!");
+            }
+            Destroy(gameObject);
 
             died = true;
             Destroy(gameObject, spawnDelay + 1f);  // Hủy đối tượng sau khi hoàn thành

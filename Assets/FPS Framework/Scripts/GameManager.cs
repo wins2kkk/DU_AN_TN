@@ -11,7 +11,6 @@ namespace Akila.FPSFramework
         [SerializeField] UIManager HUD;
         [SerializeField] DeathCamera deathCamera;
 
-
         public UIManager UIManager { get; set; }
         public DeathCamera DeathCamera { get; set; }
 
@@ -22,6 +21,11 @@ namespace Akila.FPSFramework
 
             if (deathCamera)
                 DeathCamera = Instantiate(deathCamera);
+
+           
+
+
         }
+      
     }
 }

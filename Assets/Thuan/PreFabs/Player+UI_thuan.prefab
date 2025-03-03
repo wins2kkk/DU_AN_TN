@@ -919,17 +919,17 @@ PrefabInstance:
     - target: {fileID: 1749145042671706959, guid: 6a0b0e2861326634989558cab1d0f0aa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 464.03168
+      value: -4.02
       objectReference: {fileID: 0}
     - target: {fileID: 1749145042671706959, guid: 6a0b0e2861326634989558cab1d0f0aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1749145042671706959, guid: 6a0b0e2861326634989558cab1d0f0aa,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 688.1747
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1749145042671706959, guid: 6a0b0e2861326634989558cab1d0f0aa,
         type: 3}
@@ -1099,7 +1099,7 @@ PrefabInstance:
     - target: {fileID: 5585058578333758824, guid: 6a0b0e2861326634989558cab1d0f0aa,
         type: 3}
       propertyPath: gameOverScene
-      value: Losse
+      value: LoseGame
       objectReference: {fileID: 0}
     - target: {fileID: 5585058578333758824, guid: 6a0b0e2861326634989558cab1d0f0aa,
         type: 3}
